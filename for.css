@@ -1,0 +1,82 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {             
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }       
+        .img-box {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .img-box img {
+            max-width: 400px;
+            width: 50%;
+            height: auto;
+            border: 1px solid #eee;
+        }        
+        .img-desc {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 40px;
+            text-align: center;
+        }    
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 15px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .edit-icon {
+            font-size: 16px;
+            color: #666;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .edit-icon:hover {
+            color: #007bff;
+        }
+        .slogan {
+            font-size: 18px;
+            color: #000;
+            margin-bottom: 35px;
+             
+            text-align: left;
+        }
+        .intro-content {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #444;
+            text-align: left;          
+        }
+a {
+    color: #87CEFA;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: grey;
+}
+
+a.black-link {
+    color: #000000;
+}
+a.black-link:link,
+a.black-link:visited,
+a.black-link:hover,
+a.black-link:active {
+    color: #4070A0;
+}
